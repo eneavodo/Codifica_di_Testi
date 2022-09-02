@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prol3ev.xsl"?>      
+<!DOCTYPE TEI SYSTEM "tei_all.dtd"> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>         
+        <fileDesc>      
+ 
+            <titleStmt>         
+                <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                <title xml:lang="it" type="alt">Le prime tre conferenze all'università</title>
+                <author xml:lang="fr"><name key="De Saussure, Ferdinand (1857-1913)" type="person" ref="#fds">Ferdinand De Saussure</name></author>
+                <respStmt xml:id="EmFa">      
+                    <resp>Traduttore</resp>
+                    <persName type="person">Emanuele Fadda</persName>
+                </respStmt>               
+            </titleStmt>
+
+        <!-- Edizione digitale-->
+            <editionStmt>
+                <edition n="edizione 1">Edizione digitale: <date when="2022-09">Settembre 2022</date></edition>
+                <respStmt xml:id='EV'>
+                    <resp>Codificato da: </resp>
+                    <name>Enea Vodo</name>
+                </respStmt>
+                <respStmt xml:id='AMDG'>
+                    <resp> Progetto coordinato da: </resp>
+                    <name>Angelo Maria Del Grosso</name>
+                </respStmt>
+                <respStmt xml:id="BE"> 
+                    <resp>Trascritto a cura di:</resp>
+                    <name>Simon Bouquet</name>
+                    <name>Rudolf Engler</name>
+                </respStmt>
+            </editionStmt>
+
+        <!--publication statement-->
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date when = "2022">2022</date>
+                <address>
+                    <postCode>56127</postCode>
+                    <settlement type="city">Pisa</settlement>
+                    <region>Toscana</region>
+                    <country key="IT">Italia</country>
+                </address>
+                <availability status="free">
+                    <p>Accesso libero</p>
+                </availability>
+            </publicationStmt>
+
+        <!--(source description)-->
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Ginevra</settlement>
+                            <country key="CH">Svizzera</country>
+                        </placeName>
+                        <bloc type="continent">Europa</bloc>
+                        <institution>Università di Ginevra</institution>
+                        <repository ref="https://archives.bge-geneve.ch/ark:/17786/vta01d046d929f231ba" role="library">Biblioteca di Ginevra</repository>
+                        <idno>BGE Ms.fr.3951/1.1-3</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <msItem>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Universitè <date when="1891-11">Novembre 1891</date></title>
+                            <title xml:lang="fr" type="sub">cours d'ouverture</title>
+                            <byline>di<docAuthor>Ferdinand De Saussure</docAuthor></byline>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="carta">
+                            <supportDesc material="paper">
+                                <support> Fogli di <material>carta</material></support>
+                                <extent>
+                                    <measure unit="pages" quantity="67">
+                                    Sono presenti precisamente 67 pagine (30+15+22), piu 1 foglietto.
+                                    </measure>
+                                </extent>
+                                <foliation xml:id="modern">Foliazione è in alto a sinistra di ogni pagina scritta, con una sequenza indicata con cifre arabe nel manoscritto</foliation>
+                                <condition>
+                                    <p> Le pagine sono in buone condizioni</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <p>Testo scritto da una mano, quella dell'autore, in alcuni casi difficile da comprendere.</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p>Contiene uno stile di scrittura</p>
+                        </scriptDesc>
+                    </physDesc>
+
+                    <history>
+                        <summary>
+                        Manoscritto composto da 3 parti.
+                        </summary>
+                        <origin notAfter="1891">
+                            <p>Appunti scritti da <persName>Ferdinand de Saussure</persName> per le prime conferenze all’Università
+                              di <placeName>Ginevra</placeName>(Svizzera), in parte utilizzati per le prime lezioni del corso
+                              di Phonétique du grec et du latin del <date when="1891-11-06">6,</date> <date when="1891-11-10">10</date> e <date when="1891-11-13">13 Novembre 1891</date>
+                              che probabilmente erano destinati alla pubblicazione di una brochure.
+                            </p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <!--text-profile description-->
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+
+            <textDesc>
+                <channel mode="w">scritto</channel>
+                <constitution type="single"/>
+                <derivation type="original"/>
+                <domain type="education"/>
+                <factuality type="fact"/>
+                <interaction type="partial" active="singular" passive="group"/>
+                <preparedness type="prepared"/>  
+                <purpose type="inform" degree="high"/>
+            </textDesc>
+
+            <settingDesc>
+                <setting>
+                    <name type="city">Ginevra</name>
+                    <time>
+                        <date when="1891-11"> Novembre 1891</date>
+                    </time>
+                    <locale>Aula universitaria</locale>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    
+
+
+    <facsimile>
+        <surface>   <!-- Rappresentazione della pagina 10 (immmagine 119)-->
+            <graphic url='images/page_10.jpg' xml:id="P10" width='2143px' height='3273px' />
+            <zone ulx="7" uly="3" lrx="2139" lry="3265" xml:id="page10"/>
+            <zone ulx="7" uly="5" lrx="2141" lry="287" xml:id="p10_Riga1"/>
+            <zone ulx="9" uly="277" lrx="2137" lry="413" xml:id="p10_Riga2"/>
+            <zone ulx="5" uly="421" lrx="2139" lry="541" xml:id="p10_Riga3"/>
+            <zone ulx="5" uly="531" lrx="2139" lry="669" xml:id="p10_Riga4"/>
+            <zone ulx="9" uly="673" lrx="2139" lry="797" xml:id="p10_Riga5" />            
+            <zone ulx="9" uly="827" lrx="2141" lry="925" xml:id="p10_Riga6" />
+            <zone ulx="13" uly="931" lrx="2141" lry="1091" xml:id="p10_Riga7" />
+            <zone ulx="9" uly="1091" lrx="2141" lry="1191" xml:id="p10_Riga8"/>
+            <zone ulx="15" uly="1203" lrx="2141" lry="1301" xml:id="p10_Riga9"/> 
+            <zone ulx="13" uly="1337" lrx="2141" lry="1473" xml:id="p10_Riga10" />
+            <zone ulx="5" uly="1455" lrx="2137" lry="1597" xml:id="p10_Riga11"/>
+            <zone ulx="21" uly="1623" lrx="2139" lry="1737" xml:id="p10_Riga12" />
+            <zone ulx="15" uly="1761" lrx="2137" lry="1875" xml:id="p10_Riga13"/>
+            <zone ulx="15" uly="1895" lrx="2141" lry="1993" xml:id="p10_Riga14"/>
+            <zone ulx="17" uly="2031" lrx="2137" lry="2123" xml:id="p10_Riga15"/>
+            <zone ulx="9" uly="2159" lrx="2141" lry="2269" xml:id="p10_Riga16"/>
+            <zone ulx="15" uly="2307" lrx="2139" lry="2403" xml:id="p10_Riga17" />
+            <zone ulx="9" uly="2433" lrx="2139" lry="2539" xml:id="p10_Riga18" />
+            <zone ulx="11" uly="2561" lrx="2139" lry="2695" xml:id="p10_Riga19"/>
+            <zone ulx="13" uly="2699" lrx="2137" lry="2829" xml:id="p10_Riga20"/>
+            <zone ulx="13" uly="2835" lrx="2137" lry="2957" xml:id="p10_Riga21"/>    
+            <zone ulx="11" uly="2983" lrx="2141" lry="3115" xml:id="p10_Riga22"/> 
+            <zone ulx="13" uly="3129" lrx="2141" lry="3221" xml:id="p10_Riga23"/> 
+        </surface>
+
+        <surface>   <!-- Rappresentazione della pagina 11 (immagine 118)-->
+            <graphic url='images/page_11.jpg' xml:id="P11" width='2123px' height='3259px' />
+            <zone ulx="7" uly="7" lrx="2117" lry="3253" xml:id="page11"/>
+            <zone ulx="13" uly="163" lrx="2121" lry="247" xml:id="p11_Riga1"/>
+            <zone ulx="7" uly="265" lrx="2121" lry="391" xml:id="p11_Riga2"/>
+            <zone ulx="9" uly="411" lrx="2121" lry="557" xml:id="p11_Riga3"/>
+            <zone ulx="7" uly="527" lrx="2121" lry="673" xml:id="p11_Riga4"/>
+            <zone ulx="5" uly="687" lrx="2121" lry="805" xml:id="p11_Riga5"/>
+            <zone ulx="7" uly="843" lrx="2117" lry="941" xml:id="p11_Riga6"/>
+            <zone ulx="3" uly="957" lrx="2121" lry="1113" xml:id="p11_Riga7"/>
+            <zone ulx="5" uly="1111" lrx="2121" lry="1259" xml:id="p11_Riga8"/>
+            <zone ulx="307" uly="1265" lrx="2117" lry="1355" xml:id="p11_Riga9"/>
+            <zone ulx="313" uly="1379" lrx="2121" lry="1467" xml:id="p11_Riga10"/>
+        </surface>
+    </facsimile>
+
+    <text xml:lang="fr" type="manoscritto">
+        <body>
+        <!-- Pagina 10 in francese-->
+            <div type="pagina" n="10" facs="#P10">
+                <pb n="10"/>
+                    <ab type="paragrafo" n="1" xml:id="pg10_prg1">
+                     <!--changement inévitable au bout de cent ou deux cents ans n’est-->
+                        <lb facs="#p10_Riga1" n="1"/>
+                            <term ref="ChIn">changement inévitable</term>
+                            <add place="above" hand="#fds">
+                                <date ref="data1">au bout de 
+                                    <choice><abbr>(100) </abbr><expan resp="#BE"><num type="cardinal" value="100">cent</num></expan></choice>
+                                    ou
+                                    <choice><abbr>(200) </abbr><expan resp="#BE"><num type="cardinal" value="200">deux cents</num></expan></choice>
+                                    ans                          
+                                </date>
+                            </add>
+                            <emph rend="underline">n’est
+                                <del rend="overstrike">
+                                    <unclear reason="illegible" cert="high" resp="#EV">pas le</unclear>
+                                        <del rend="overstrike">
+                                            <gap atLeast="3" atMost="7" unit="chars" reason="illegible"/>
+                                        </del>
+                                </del>
+                            </emph>
+                    <!-- pas le même sur les différents points de ce -->
+                        <lb facs="#p10_Riga2" n="2"/>
+                            <emph rend="underline">pas le même</emph>
+                            <del rend="overstrike">sur les différents points de ce</del>
+
+                    <!-- territoire, sur les différents-->
+                        <lb facs="#p10_Riga3" n="3"/>
+                            <del rend="overstrike">territoire</del>,
+                            <subst>
+                                <del rend="overstrike">
+                                    <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/>
+                                </del>
+                                <add place="above">sur les</add>
+                            </subst>
+                            <term ref="Diff">différents</term>
+                            <del rend="overstrike">
+                                <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/>
+                            </del>
+
+                    <!-- points de ce territoire, soit qu’il ait un diamètre-->
+                        <lb facs="#p10_Riga4" n="4"/>
+                            <term ref="Poi">points</term> de ce
+                            <term ref="Terr">territoire</term>,
+                            <subst>
+                                <del rend="overstrike">
+                                    <gap atLeast="3" atMost="5" unit="word" reason="illegible"/>
+                                </del>
+                                <add place="above">soit qu’il ait un</add>
+                            </subst>
+                            <term ref="Dm">diamètre</term>
+                    <!-- de cinq ou six cents lieues, soit de cinq ou six lieues.>-->
+                        <lb facs="#p10_Riga5" n="5"/>
+                            <add place="left" hand="#fds">de
+                                <choice><abbr>(5) </abbr><expan resp="#BE"><num type="cardinal" value="5">cinq</num></expan></choice>
+                                ou
+                                <choice><abbr>(6) </abbr><expan resp="#BE"><num type="cardinal" value="6">six</num></expan></choice>
+                                cents
+                                <term ref="Lie">lieues</term>, soit
+                            </add>
+                            de
+                            <choice><abbr>(5) </abbr><expan resp="#BE"><num type="cardinal" value="5">cinq</num></expan></choice>
+                            ou
+                            <choice><abbr>(6) </abbr><expan resp="#BE"><num type="cardinal" value="6">six</num></expan></choice>
+                            <term ref="Lie">lieues</term>.
+                    </ab>
+
+                    <ab type="paragrafo" n="2" xml:id="pg10_prg2">
+                     <!--<Les phénomènes arrivés dans l’instant sont-->
+                            Les <term ref="Ph">phénomènes</term>
+                            <add place="above" hand="#fds">
+                                arrivés <choice><abbr>(ds) </abbr><expan resp="#BE">dans</expan></choice>
+                                <term ref="Ins">l’instant</term>
+                            </add>
+                            sont
+                     <!--toujours absolument précis et définissables, par exemple changement de s en h, mais ils ne sont-->
+                        <lb facs="#p10_Riga6" n="6"/>
+                            toujours
+                            <term ref="Abs">absolument</term>
+                            précis
+                            <add place="above" hand="#fds">
+                                <choice><abbr>(&#38;) </abbr><expan resp="#BE">et</expan></choice>
+                                <term ref="Def">définissables</term>, par exemple
+                                <term ref="Cha">changement</term> de s en h
+                            </add>
+                            , mais ils ne sont
+                     <!--pas les mêmes dans les différentes-->
+                        <lb facs="#p10_Riga7" n="7"/>
+                            pas les mêmes dans
+                            <del rend="overstrike">
+                                <gap atLeast="4" atMost="10" unit="chars" reason="illegible"/>
+                            </del>
+                            les
+                            <term ref="Diff">différentes</term>
+                     <!--parties de l’aire géographique qu’on-->
+                        <lb facs="#p10_Riga8" n="8"/>
+                            parties de l'
+                            <term ref="AiGe">aire géographiqu<choice><sic></sic><corr resp="#BE">e</corr></choice>
+                            </term>
+                            qu’on
+                     <!--a à considérer ;-->
+                        <lb facs="#p10_Riga9" n="9"/>
+                            <subst>
+                                <del rend="overstrike">
+                                    <gap atLeast="7" atMost="11" unit="chars" reason="illegible"/>
+                                </del>
+                                <add place="above">a à </add> 
+                            </subst>
+                            considérer;
+                    </ab>
+
+                    <ab type="paragrafo" n="3" xml:id="pg10_prg3">
+                    <!-- - et par conséquent -->
+                            - et par conséquent
+                    <!--la langue n’est plus identique dans les-->
+                        <lb facs="#p10_Riga10"  n="10"/>
+                            la <term ref="Lan">langue</term> n’est plus
+                            <subst>
+                                <del rend="overstrike">
+                                    <unclear reason="illegible" cert="high" resp="#EV">la même</unclear>
+                                </del>
+                                <add place="above"><term ref="Ide">identique</term></add>
+                            </subst>
+                            dans les
+                    <!--différentes régions qu’on traversera.> -->
+                        <lb facs="#p10_Riga11"  n="11"/>
+                            <term ref="DiRé">différentes régions</term> qu’on traversera.
+                    </ab>
+
+                    <ab type="paragrafo" n="4" xml:id="pg10_prg4">
+                    <!-- <Si l’on combine cette donnée -->
+                        <lb facs="#p10_Riga12" n="12"/>
+                            <space dim="horizontal" quantity="10" unit="chars"/>Si l’on combine cette
+                            <term ref="Don">donnée</term>
+                    <!--géographique avec la donnée chrono- -->
+                        <lb facs="#p10_Riga13"  n="13"/>
+                            <term ref="Geo">géographique</term>
+                            avec la
+                            <term ref="Doch">donnée chrono-</term>
+                        
+                    <!-- -logique, on voit que nous ne [nous] trouvons-->               
+                        <lb facs="#p10_Riga14"  n="14" break="no"/>
+                            <term ref="log">logique</term>, on voit que 
+                            <choice><sic>nous ne </sic><corr resp="#BE">nous ne nous</corr></choice>
+                            trouvons
+                    <!--presque jamais, en linguistique, devant-->
+                        <lb facs="#p10_Riga15"  n="15"/>
+                            presque jamais, en 
+                            <term ref="Lin">linguistique</term>, devant
+                    <!--un premier terme A reflété quelques siècles -->                 
+                        <lb facs="#p10_Riga16"  n="16"/>
+                            un 
+                            <term ref="Pre">
+                                <choice><abbr>(1°) </abbr><expan resp="#BE"><num type="cardinal" value="5">premier</num></expan></choice>
+                            </term>
+                            <term ref="Ter">terme</term>
+                            A reflété quelques siècles
+                    <!-- après par un terme B ;> -->
+                        <lb facs="#p10_Riga17"  n="17"/>
+                            après par un <term ref="Ter">terme</term> B ;
+                    </ab>
+
+                    <ab type="paragrafo" n="5" xml:id="pg10_prg5">
+                    <!-- <mais devant -->
+                            - mais devant
+                    <!-- un premier terme A se répercutant quelques -->
+                        <lb facs="#p10_Riga18"  n="18"/>
+                            un <choice><abbr>(1°) </abbr><expan resp="#BE"><num type="ordinal" value="1">premier</num></expan></choice>
+                            <term ref="Ter">terme</term>
+                            A se répercutant quelques
+                    <!-- siècles après par B' B" B'" B""...>  -->
+                        <lb facs="#p10_Riga19"  n="19"/>
+                            siècles après
+                            <subst>
+                                <del rend="overtyped">
+                                    <gap atLeast="3" atMost="5" unit="chars" reason="illegible" ></gap>
+                                    <add>par</add>
+                                </del>
+                            </subst>
+                            B' B" B'" B""...
+                    </ab>
+
+                    <ab type="paragrafo" n="6" xml:id="pg10_prg6">
+                    <!-- <Par exemple, si à un moment donné on -->
+                        <lb facs="#p10_Riga20" n="20"/>
+                            Par <term ref="Exe">exemple</term>, si 
+                            <subst>
+                                <del rend="overtyped">
+                                    <gap reason="illegible" extent="1" unit="chars"/>
+                                </del>
+                                <add>à</add>
+                            </subst>
+                            <choice><abbr>(1) </abbr><expan resp="#BE"><num type="cardinal" value="1">un</num></expan></choice>
+                            moment donné on
+                    <!-- parle l’idiome A à Genève, le même idiome A  -->
+                        <lb facs="#p10_Riga21"  n="21"/>
+                            parle l'<term ref="Idi">idiome</term> A à
+                            <placeName xml:id="Gen">Genève</placeName>, le
+                            <add place="above" hand="#fds">même</add>
+                            <term ref="Idi">idiome</term> A
+                    <!-- à Lyon, le même idiome A à Bourges ou à -->
+                        <lb facs="#p10_Riga22" n="22"/>
+                            à <placeName xml:id="Lyo">Lyon</placeName>, le même     
+                            <term ref="Idi">idiome</term> A à
+                            <placeName xml:id="Bou">Bourges</placeName> ou à
+                    <!-- Paris, au bout de deux ou trois cents ans nous ne-->
+                        <lb facs="#p10_Riga23" n="23"/>
+                            <placeName xml:id="Par">Paris</placeName>,
+                            - <date ref="data2">au bout de 
+                                <choice><abbr>(2) </abbr><expan resp="#BE"><num type="cardinal" value="2">deux</num></expan></choice>
+                                ou
+                                <choice><abbr>(300) </abbr><expan resp="#BE"><num type="cardinal" value="300">trois cents</num></expan></choice>
+                                ans                          
+                            </date>
+                            nous ne
+                    </ab>
+            </div>
+
+     <!-- Pagina 11 in francese-->
+            <div type="pagina" n="11" facs="#P11">
+                <pb n="11"/>
+                    <ab type="paragrafo" n="1" xml:id="pg11_prg1">
+                    <!-- trouvons nulle part un idiome qu’on -->
+                        <lb facs="#p11_Riga1" n="1"/>
+                            trouvons nulle part un <term ref="Idi">idiome</term> qu’on
+                    <!-- puisse appeler B par rapport à A,  -->
+                        <lb facs="#p11_Riga2"  n="2"/>
+                            puisse appeler B par rapport à A
+                            <choice><sic>;</sic><corr resp="#BE" cert="high">,</corr></choice>
+                    <!-- mais on aura B' à Genève, B" à Lyon,  -->
+                        <lb facs="#p11_Riga3" n="3"/>
+                            mais on aura B' à 
+                            <placeName xml:id="Gen1">Genève</placeName>
+                            <choice><sic>;</sic><corr resp="#BE" cert="high">,</corr></choice>
+                            B" à <placeName xml:id="Lyo1">Lyon</placeName>,
+                    <!-- B'" à Bourges, B"" à Paris, par -->
+                        <lb facs="#p11_Riga4" n="4"/>
+                            B''' à <placeName xml:id="Bou1">Bourges</placeName>,
+                            B"" à <placeName xml:id="Par1">Paris</placeName>,par 
+                    <!-- opposition à l’A identique du point de  -->
+                        <lb facs="#p11_Riga5" n="5"/>
+                            <term ref="Opp">opposition</term> à l'A
+                            <term ref="Ide">identique</term> du 
+                            <term ref="PoD">point de</term>
+                    <!-- départ.> -->
+                        <lb facs="#p11_Riga6" n="6"/>
+                            <term ref="Dep">départ</term>.
+                    </ab>
+
+                    <ab type="paragrafo" n="2" xml:id="pg11_prg2">
+                    <!-- <La différence A : B représente -->
+                            -La <term ref="Dif">différence</term> A : B 
+                            <term ref="Rep">représente</term>
+                    <!-- idéalement la différence dans le temps, mais en fait il n’existe que la différence A : B' B" B'" -->
+                        <lb facs="#p11_Riga7"  n="7"/>
+                            <add place="left" hand="#fds">
+                                <term ref="Ida">idéalement</term>
+                            </add>
+                            la <term ref="Dif">différence</term> 
+                            <choice><abbr>(ds) </abbr><expan resp="#BE">dans</expan></choice> le
+                            <term ref="Tem">temps</term>, 
+                            <add place="above" hand="#fds">mais en fait il n’existe que</add> la
+                            <term ref="Dif">
+                                <choice><abbr>(diff.) </abbr><expan resp="#BE">différence</expan></choice>
+                            </term> 
+                            <add place="above" hand="#fds">A :</add> B' B" B'''
+
+
+                    <!-- - qui seule réelle représente la différence à la fois dans le temps et dans l’espace.> -->
+                        <lb facs="#p11_Riga8" n="8"/>
+                            <add place="inline" resp="#BE" cert="high">-</add> 
+                            <add place="left" hand="#fds">qui seule 
+                                <term ref="Ree">réelle</term>
+                            </add>
+                            <term ref="Rep">représente</term> la 
+                            <term ref="Dif">
+                                <choice><abbr>(diff.) </abbr><expan resp="#BE">différence</expan></choice>
+                            </term> 
+                            <add place="above" hand="#fds">à la fois</add> 
+                            <choice><abbr>(ds) </abbr><expan resp="#BE">dans</expan></choice> le
+                            <term ref="Tem">temps</term> 
+                            <emph rend="underline">et dans l'<term ref="Esp">espace</term></emph>
+                            <choice><sic>;</sic><corr resp="#BE" cert="high">.</corr></choice>
+                    <!-- -->
+                        <lb facs="#p11_Riga9" n="9"/>
+                            <del rend="overstrike"><gap atLeast="3" atMost="6" unit="word" reason="illegible"/></del> 
+                            <del rend="overstrike">
+                                <unclear reason="illegible" cert="med" resp="#EV">a de réelle qui la différence</unclear>
+                            </del>
+                            <del rend="overstrike">
+                                <gap atLeast="3" atMost="6" unit="chars" reason="illegible"/>
+                            </del>
+                    <!-- -->
+                        <lb facs="#p11_Riga10" n="10"/>
+                            <del>
+                                <unclear reason="illegible" cert="med" resp="#EV">à la</unclear>
+                            </del>
+                            <del>
+                                <gap atLeast="2" atMost="6" unit="chars" reason="illegible"/>
+                            </del>
+                            <del>
+                                <unclear reason="illegible" cert="med" resp="#EV">
+                                    <choice><abbr>(ds) </abbr><expan resp="#EV">dans</expan></choice>
+                                    le temps et
+                                    <choice><abbr>(ds) </abbr><expan resp="#EV">dans</expan></choice>
+                                    l’espace.
+                                </unclear>
+                            </del>
+                    </ab>
+            </div>
+
+
+     <!-- Traduzione in italiano: Pagina 10-->
+            <div resp="EmFa" type="traduzione" n="1" xml:lang="it">
+                <ab n="1" corresp="#pg10_prg1">
+                cambiamento inevitabile al volgere di cento o duecent’anni non è lo stesso nei diversi punti di questo territorio, sia che abbia un diametro di cinque o seicento leghe, sia di cinque o sei leghe.
+                </ab>
+
+                <ab n="2" corresp="#pg10_prg2">
+                I fenomeni accaduti al momento sono sempre assolutamente precisi e definibili (per esempio cambiamento di s in h) ma non sono gli stessi nelle differenti parti dell’area geografica che si deve considerare;
+                </ab>
+
+                <ab n="3" corresp="#pg10_prg3">
+                e di conseguenza la lingua non è più identica nelle diverse regioni che si attraverseranno.
+                </ab>
+
+                <ab n="4" corresp="#pg10_prg4">
+                Se si combina questo dato geografico con il dato cronologico, si vede che noi non ci troviamo quasi mai, in linguistica, davanti a un primo termine A riflesso qualche secolo dopo da un termine B;
+                </ab>
+
+                <ab n="5" corresp="#pg10_prg5">
+                ma davanti a un primo termine A che si ripercuote qualche secolo dopo in B’, B’’, B’’’, B’’’’…
+                </ab>
+
+                <ab n="6" corresp="#pg10_prg6">
+                Per esempio, se a un momento dato si parla l’idioma A a Ginevra, lo stesso idioma A a Lione, lo stesso idioma A a Bourges o a Parigi, in capo a due o trecent’anni non 
+                </ab>
+            </div>
+
+     <!-- Traduzione in italiano: Pagina 11-->
+            <div resp="EmFa" type="traduzione" n="2" xml:lang="it">
+                <ab n="1" corresp="#pg11_prg1">
+                troviamo da nessuna parte un idioma che si possa chiamare B in rapporto ad A, ma si avrà B’ a Ginevra, B’’ a Lione, B’’’ a Bourges, B’’’’ a Parigi, in opposizione all’identico A del punto di partenza.
+                </ab>
+
+                <ab n="2" corresp="#pg11_prg2">
+                La differenza A: B rappresenta idealmente la differenza nel tempo, ma in effetti non esiste se non la differenza A: B’ B’’ B’’’ – che, unica reale, rappresenta la differenza contemporaneamente nel tempo e nello spazio.
+                </ab>
+            </div>
+        </body>
+
+        <back>
+            <list rend="bulleted" type="Elemento_terminologico">
+                <label>
+                    <term xml:lang="fr" xml:id="ChIn">changement inévitable</term>
+                    <term xml:lang="it" ref="#ChIn">cambiamento inevitabile</term>
+                </label>
+                <item>
+                    <gloss target="#ChIn">
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Terr">territoire</term>
+                    <term xml:lang="it" ref="#Terr">territorio</term>
+                </label>
+                <item>
+                    <gloss target="#Terr" source="https://it.wikipedia.org/wiki/Territorio">
+                        Territorio: significa "possessore della terra". Un territorio, quindi, è un'area definita o delimitata che include porzioni di suolo o di acque.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Dm">diamètre</term>
+                    <term xml:lang="it" ref="#Dm">diametro</term>
+                </label>
+                <item>
+                    <gloss target="#Dm" source="https://it.wikipedia.org/wiki/Diametro">
+                        Diametro: In geometria il diametro è il segmento che unisce due punti della circonferenza passando per il centro; tali punti sono detti opposti.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Lie">lieues</term>
+                    <term xml:lang="it" ref="#Lie">leghe</term>
+                </label>
+                <item>
+                    <gloss target="#Lie" source="https://it.wikipedia.org/wiki/Lega_(unit%C3%A0_di_misura)">
+                        Lega: unità di misura della distanza, e in particolare di percorsi terrestri o marittimi[1] a lungo diffusa in Europa ed in America Latina, originatasi nella Roma antica.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Ph">phénomènes</term>
+                    <term xml:lang="it" ref="#Ph">fenomeni</term>
+                </label>
+                <item>
+                    <gloss target="#Ph" source="https://it.wikipedia.org/wiki/Fenomeno">
+                        Fenomeno: è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Ins">instant</term>
+                    <term xml:lang="it" ref="#Ins">momento</term>
+                </label>
+                <item>
+                    <gloss target="#Ins" source="https://www.treccani.it/vocabolario/momento/#:~:text=mom%C3%A9nto%20s.%20m.%20%5Bdal%20lat.,%C2%BB%2C%20da%20cui%20i%20sign.">
+                        Momento: Minima frazione di tempo, tempo brevissimo.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Abs">absolument</term>
+                    <term xml:lang="it" ref="#Abs">assolutamente</term>
+                </label>
+                <item>
+                    <gloss target="#Abs" source="https://www.treccani.it/vocabolario/assolutamente/">
+                        Assolutamente: In maniera assoluta, senza limitazioni o restrizioni: governare, regnare assolutamente.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Def">définissables</term>
+                    <term xml:lang="it" ref="#Def">definibili</term>
+                </label>
+                <item>
+                    <gloss target="#Def" source="https://www.treccani.it/vocabolario/ricerca/Definire/">
+                        Definire: Determinare il contenuto di un concetto, dichiarare con brevi e precise parole le qualità essenziali di una cosa, in modo da distinguerla nettamente da un’altra
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Cha">changement</term>
+                    <term xml:lang="it" ref="#Cha">cambiamento</term>
+                </label>
+                <item>
+                    <gloss target="#Cha" source="https://www.treccani.it/enciclopedia/cambiamento_%28Dizionario-delle-Scienze-Fisiche%29/">
+                        Cambiamento: Il cambiare, il cambiarsi. Sinon. di variazione, transizione, trasformazione
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Diff">différentes</term>
+                    <term xml:lang="it" ref="#Diff">differenti</term>
+                </label>
+                <item>
+                    <gloss target="#Diff" source="https://www.treccani.it/vocabolario/differente/">
+                        Differente: Che ha natura o qualità dissimili da quelle di un altro oggetto o persona con cui è confrontato
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="AiGe">aire géographique</term>
+                    <term xml:lang="it" ref="#AiGe">area geografica</term>
+                </label>
+                <item>
+                    <gloss target="#AiGe" source="https://it.wikipedia.org/wiki/Area_geografica">
+                        Area geografica: porzione continua della superficie terrestre la cui estensione è caratterizzata da un'ampiezza non inferiore a qualche chilometro quadrato.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Lan">langue</term>
+                    <term xml:lang="it" ref="#Lan">lingua</term>
+                </label>
+                <item>
+                    <gloss target="#Lan" source="https://it.wikipedia.org/wiki/Lingua_(linguistica)">
+                        Lingua: sistema o forma storicamente determinata attraverso il quale gli appartenenti a una comunità si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero un insieme di segni scritti (simboli) e/o parlati (suoni)
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Ide">identique</term>
+                    <term xml:lang="it" ref="#Ide">identica</term>
+                </label>
+                <item>
+                    <gloss target="#Ide" source="https://www.treccani.it/vocabolario/identico/">
+                        Identica: Interamente uguale, che ha le stesse caratteristiche di qualcosa.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Don">donnée</term>
+                    <term xml:lang="it" ref="#Don">dato</term>
+                </label>
+                <item>
+                    <gloss target="#Don" source="https://it.wikipedia.org/wiki/Dato">
+                        Dato: descrizione elementare codificata di un'informazione, un'entità, di un fenomeno, di una transazione, di un avvenimento o di altro.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Geo">géographique</term>
+                    <term xml:lang="it" ref="#Geo">geografico</term>
+                </label>
+                <item>
+                    <gloss target="#Geo" source="https://www.treccani.it/vocabolario/geografico/">
+                        Geografico: Della geografia, pertinente alla geografia.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Lin">linguistique</term>
+                    <term xml:lang="it" ref="#Lin">linguistica</term>
+                </label>
+                <item>
+                    <gloss target="#Lin" source="https://it.wikipedia.org/wiki/Linguistica">
+                        Linguistica: studio scientifico del linguaggio verbale umano e delle sue strutture. Essa include lo studio della fonetica, della grammatica, del lessico, della morfologia, della sintassi e della testualità
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Ter">terme</term>
+                    <term xml:lang="it" ref="#Ter">termine</term>
+                </label>
+                <item>
+                    <gloss target="#ter" source="https://it.wikipedia.org/wiki/Termine">
+                        Termine: unità lessicale in grado di contribuire alla descrizione di un dominio.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Exe">exemple</term>
+                    <term xml:lang="it" ref="#Exe">esempio</term>
+                </label>
+                <item>
+                    <gloss target="#Exe" source="https://www.treccani.it/vocabolario/esempio/">
+                        Esempio: fatto, atto, comportamento o cosa in genere che si propone come modello da imitare o da fuggire, o che comunque si additi all’ammirazione o alla riprovazione
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Idi">idiome</term>
+                    <term xml:lang="it" ref="#Idi">idioma</term>
+                </label>
+                <item>
+                    <gloss target="#Idi" source="https://www.treccani.it/vocabolario/idioma/">
+                        Idioma: particolarità; peculiarità di stile; linguaggio
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Opp">opposition</term>
+                    <term xml:lang="it" ref="#Opp">opposizione</term>
+                </label>
+                <item>
+                    <gloss target="#Opp" source="https://www.treccani.it/vocabolario/opposizione/">
+                        Opposizione: L’atto di opporre, azione con cui si cerca di ostacolare qualche cosa, di impedirne l’attuazione
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Ida">idéalement</term>
+                    <term xml:lang="it" ref="#Ida">idealmente</term>
+                </label>
+                <item>
+                    <gloss target="#Ida" source="https://www.treccani.it/vocabolario/ideale/">
+                        Ideale: che appartiene o è proprio dell’idea, intesa come entità essenzialmente mentale e spirituale contrapposta alla realtà esterna
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Tem">temps</term>
+                    <term xml:lang="it" ref="#Tem">tempo</term>
+                </label>
+                <item>
+                    <gloss target="#Tem" source="https://it.wikipedia.org/wiki/Tempo">
+                        Tempo: percezione e rappresentazione della modalità di successione degli eventi e del rapporto fra essi
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Ree">réelle</term>
+                    <term xml:lang="it" ref="#Ree">reale</term>
+                </label>
+                <item>
+                    <gloss target="#Ree" source="https://www.treccani.it/vocabolario/reale2/#:~:text=realis%2C%20der.,.%2C%20nell'uso%20com.">
+                        Reale: Che è, che esiste veramente, effettivamente e concretamente.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Rep">représente</term>
+                    <term xml:lang="it" ref="#Rep">rappresenta</term>
+                </label>
+                <item>
+                    <gloss target="#Rep" source="https://www.treccani.it/vocabolario/rappresentare/#:~:text=Presentare%2C%20mostrare%2C%20e%20al%20rifl,b.">
+                        Rappresenta: Presentare, mostrare, mostrarsi
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Esp">espace</term>
+                    <term xml:lang="it" ref="#Esp">spazio</term>
+                </label>
+                <item>
+                    <gloss target="#Esp" source="https://www.treccani.it/vocabolario/spazio/">
+                        Spazio: il luogo indefinito e illimitato in cui si pensano contenute tutte le cose materiali, le quali, in quanto hanno un’estensione, ne occupano una parte, e vi assumono una posizione.
+                    </gloss>
+                </item>
+            </list>
+
+            <list rend="bulleted" type="Data_evento_databile">
+                <label>
+                    <term xml:lang="fr" xml:id="data1">au bout de cent ou deux cents ans</term>
+                    <term xml:lang="it" ref="#data1">al volgere di cento o duecent’anni</term>
+                </label>
+                <item>
+                    <gloss target="#data1" source="https://it.wikipedia.org/wiki/Anno">
+                        Anno: Un anno indica un periodo di tempo pari approssimativamente a quello impiegato dalla Terra per completare la sua orbita attorno al Sole. Stando alla definizione astronomica, un anno dovrebbe essere diviso in 365 giorni, 6 ore, 9 minuti e 9,54 secondi.
+                    </gloss>
+                </item>
+            </list>
+
+            <list rend="bulleted" type="Toponimo">
+                <label>
+                    <term xml:lang="fr" xml:id="Gen2">Genève</term>
+                    <term xml:lang="it" ref="#Gen">Ginevra</term>
+                </label>
+                <item>
+                    <gloss target="#Gen" source="https://it.wikipedia.org/wiki/Ginevra">
+                        Ginevra: comune svizzero di 201 818 abitanti del Canton Ginevra; ha lo status di città ed è la capitale del cantone. È la seconda città più popolata del paese dopo Zurigo e la terza piazza finanziaria più importante della Svizzera dopo Zurigo e Basilea.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Lyo2">Lyon</term>
+                    <term xml:lang="it" ref="#Lyo">Lione</term>
+                </label>
+                <item>
+                    <gloss target="#Lyo" source="https://it.wikipedia.org/wiki/Lione">
+                        Lione: città della Francia sud-orientale, capoluogo della metropoli di Lione e della regione Alvernia-Rodano-Alpi.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Bou2">Bourges</term>
+                    <term xml:lang="it" ref="#Bou">Bourges</term>
+                </label>
+                <item>
+                    <gloss target="#Bou" source="https://it.wikipedia.org/wiki/Bourges">
+                        Bourges: comune francese di 68.988 abitanti capoluogo del dipartimento dello Cher, nella regione del Centro-Valle della Loira. 
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr" xml:id="Par2">Paris</term>
+                    <term xml:lang="it" ref="#Par">Paris</term>
+                </label>
+                <item>
+                    <gloss target="#Par" source="https://it.wikipedia.org/wiki/Parigi">
+                        Parigi:la capitale e la città più popolata della Francia, capoluogo della regione dell'Île-de-France
+                    </gloss>
+                </item>
+            </list>
+
+            <listBibl>
+                <bibl xml:id="Co_Li_Ge">
+                    <author ref="#fds">
+                        <persName>
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName>
+                    </author>
+                    <author xml:id="tdm">
+                        <persName>
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </persName>
+                    </author>
+                    <title type="main">Corso di linguistica generale</title>
+                    <title type="sub">Traduzione, commento e note di T. De Mauro</title>
+                    <pubPlace>
+                        <placeName>Bari</placeName>
+                    </pubPlace>
+                    <pubPlace>
+                        <placeName>Roma</placeName>
+                    </pubPlace>
+                    <publisher>Laterza</publisher>                    
+                </bibl>
+            </listBibl>
+
+            <listPerson>
+                <person xml:id="fds" sex="M">
+                    <persName role="author">
+                        <forename>Ferdinand</forename>
+                        <surname>De Saussure</surname>
+                    </persName>
+                    <birth>
+                        <date when="1857-11-26">26 Novembre 1857</date>
+                        <placeName ref="Gen">Ginevra</placeName>
+                    </birth>
+                    <death>
+                        <date when="1913-02-22">22 Febbraio 1913</date>
+                        <placeName>Vufflens-le-Château</placeName>
+                    </death>
+                    <nationality type="birth">Svizzera</nationality>
+                    <ptr type="Piuinfo" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure"/>
+                </person>
+            </listPerson>
+
+            <listPlace type="city">
+                <place xml:id="Gen3">
+                    <placeName>Ginevra</placeName>
+                    <country>Svizzera</country>
+                </place>
+                <place xml:id="Rom">
+                    <placeName>Roma</placeName>
+                    <country>Italia</country>
+                </place>
+                <place xml:id="Bar">
+                    <placeName>Bari</placeName>
+                    <country>Italia</country>
+                </place>
+            </listPlace>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+html{
+    font-family: Arial, Verdana, Geneva, sans-serif;
+    margin: 0% 0.5% 0% 0.5%;
+    scroll-behavior: smooth;
+}
+
+.title{
+    font-style: italic;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 5px red;
+    display: block; 
+    text-align: center;
+}
+            /** Navigazione**/
+.navigation{
+    color: White;
+	background-color: Red;
+    text-align: center;
+	padding: 0;
+	margin-left: -1.5%;
+    margin-right: -1.5%; 
+}
+
+.navigation li{
+    display: inline-block;
+	font-weight: bold;
+	font-size: 1.1em;
+	list-style-type: none;
+	padding: 1% 7% 1% 0%;
+    margin: 1% 0.5% 1% 0.5%;
+}
+
+li.selected a{
+	color: black; 		
+}
+
+nav a{
+	text-decoration: none;
+	color: White;
+	display: block;            
+}
+	
+nav a:hover{ color: Black; }
+
+            /** Livello h3,h4**/
+h3, h4{
+    color: Red;
+    font-weight: bold;
+}
+
+            /** Pagina 10-11 **/
+#P10{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#P11{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#pp10{
+    width: 92%;
+    height: auto;
+    
+}
+#pp11{
+    width: 92%;
+    height: auto;
+}
+
+.manoscritto{
+    font-size: 0.9em;  
+	padding: 1% 2%; 
+	border: 2px solid red; 
+    line-height: 2;
+	border-radius: 3%/4%;-moz-border-radius: 3%/4%; -webkit-border-radius: 3%/4%; -o-border-radius: 3%/4%;
+}
+
+
+.hidden{
+    margin: 1%;  
+	padding: 1% 2%;         
+    display: none;         
+
+}
+
+/**Terminologia**/
+#gi{color: rgb(201, 201, 3);}
+#ver{color: rgb(72, 202, 72);}
+#mar{color: #c90000c9;}
+
+#ElTe{
+    background-color: yellow;
+}
+
+#Dt{
+    background-color: rgb(72, 202, 72);
+}
+
+#Top{
+    background-color: #c90000c9;
+}
+
+#Can{
+    text-decoration: line-through;
+}
+
+#Agg{
+    color: red;
+}
+
+
+#esp{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+#enf{
+    text-decoration: underline;
+}
+
+#gap::after{
+    content: "***";
+}
+
+#corr, #cor{
+    font-weight: bold;
+}
+
+#sic{
+    display: none;
+}
+
+/**Footer**/
+footer{
+	text-align: center; 
+	color: White; 
+  	background-color: red;
+	padding: 1% 1%;
+	margin: 4% -1% 0% -1%;
+	font-size: 0.9em;
+  }
+
+footer a{
+	vertical-align: middle;
+}
+
